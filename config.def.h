@@ -67,9 +67,9 @@ static const struct arg args[] = {
 	/* function         format           argument                                */
     {  netspeed_tx    , "  %s"        , "eno1"                                  },
     {  netspeed_rx    , "  %s|"       , "eno1"                                  },
-    {  cpu_perc       , "  %s%% "     , NULL                                    },
+    {  cpu_perc       , "  %s%% "     , NULL                                    },
     {  temp           , "  %sºC |"    , "/sys/class/thermal/thermal_zone2/temp" },
-    {  ram_perc       , "  %s%% |"    , NULL                                    },
+    {  ram_perc       , "  %s%% |"    , NULL                                    },
     {  disk_free      , "  %s |"      , "/"                                     },
 	{  datetime       , " %s "         , "%a %b %_d %k:%M"                       },
 };
