@@ -71,5 +71,5 @@ static const struct arg args[] = {
     {  temp           , "  %sºC  "    , "/sys/class/thermal/thermal_zone2/temp" },
     {  ram_perc       , "  %s%%  "    , NULL                                    },
     {  disk_free      , "  %s  "      , "/"                                     },
-	{  datetime       , " %s "         , "%a %b %_d %k:%M"                       },
+	{  datetime       , " %s "         , "%a %b %d %k:%M"                       },
 };
